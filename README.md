@@ -115,7 +115,7 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<p class="has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size">./example1.txt<br>./folder1/example2.txt<br>./folder1/example3.txt<br>./folder1/folder2/example4.txt<br>./folder1/folder3/example5.txt<br><br>./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</p>
+<p class="has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size">./folder1/example3.txt<br>./folder1/example2.txt<br>./folder1/folder2/example4.txt<br>./folder1/folder3/example5.txt<br>./example1.txt<br><br>./folder1/example3.txt ./folder1/example2.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt ./example1.txt</p>
 </details>
 </details>
 
