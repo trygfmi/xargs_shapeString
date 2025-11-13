@@ -29,7 +29,10 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeStringcd xargs_shapeStringfind . -type f -name "*.txt"find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
+cd xargs_shapeString
+find . -type f -name "*.txt"
+find . -type f -name "*.txt" | xargs</code></pre>
 
 
 
@@ -53,7 +56,11 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/xargs_shapeStringcd xargs_shapeStringfind . -type f -name "*.txt"find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/xargs_shapeString
+cd xargs_shapeString
+find . -type f -name "*.txt"
+find . -type f -name "*.txt" | xargs</code></pre>
 
 
 
@@ -77,7 +84,10 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeStringcd xargs_shapeStringfind . -type f -name "*.txt"find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
+cd xargs_shapeString
+find . -type f -name "*.txt"
+find . -type f -name "*.txt" | xargs</code></pre>
 
 
 
@@ -97,7 +107,10 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeStringcd xargs_shapeStringfind . -type f -name "*.txt"find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
+cd xargs_shapeString
+find . -type f -name "*.txt"
+find . -type f -name "*.txt" | xargs</code></pre>
 
 
 
@@ -154,12 +167,15 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeStringcd xargs_shapeStringfind . -type f -name "*.txt"find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
+cd xargs_shapeString
+find . -type f -name "*.txt"
+find . -type f -name "*.txt" | xargs</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>./folder1/example3.txt<br>./folder1/example2.txt<br>./folder1/folder2/example4.txt<br>./folder1/folder3/example5.txt<br>./example1.txt<br><br>./folder1/example3.txt ./folder1/example2.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt ./example1.txt</code></pre>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>./folder1/example3.txt<br>./folder1/example2.txt<br>./folder1/folder2/example4.txt<br>./folder1/folder3/example5.txt<br>./example1.txt<br><br>./folder1/example3.txt ./folder1/example2.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt ./example1.txt</code></pre></p>
 </details>
 </details>
 
@@ -178,7 +194,8 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit --version</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git --version</code></pre>
 
 
 
@@ -210,7 +227,8 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install gitecho 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
+echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
 
 
 
@@ -222,12 +240,16 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/xargs_shapeStringcd xargs_shapeStringfind . -type f -name "*.txt"find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/xargs_shapeString
+cd xargs_shapeString
+find . -type f -name "*.txt"
+find . -type f -name "*.txt" | xargs</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>./example1.txt<br>./folder1/example2.txt<br>./folder1/example3.txt<br>./folder1/folder2/example4.txt<br>./folder1/folder3/example5.txt<br><br>./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>./example1.txt<br>./folder1/example2.txt<br>./folder1/example3.txt<br>./folder1/folder2/example4.txt<br>./folder1/folder3/example5.txt<br><br>./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre></p>
 </details>
 </details>
 
@@ -310,12 +332,15 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeStringcd xargs_shapeStringfind . -type f -name "*.txt"find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
+cd xargs_shapeString
+find . -type f -name "*.txt"
+find . -type f -name "*.txt" | xargs</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>./example1.txt<br>./folder1/example3.txt<br>./folder1/example2.txt<br>./folder1/folder3/example5.txt<br>./folder1/folder2/example4.txt<br><br>./example1.txt ./folder1/example3.txt ./folder1/example2.txt ./folder1/folder3/example5.txt ./folder1/folder2/example4.txt</code></pre>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>./example1.txt<br>./folder1/example3.txt<br>./folder1/example2.txt<br>./folder1/folder3/example5.txt<br>./folder1/folder2/example4.txt<br><br>./example1.txt ./folder1/example3.txt ./folder1/example2.txt ./folder1/folder3/example5.txt ./folder1/folder2/example4.txt</code></pre></p>
 </details>
 
 
@@ -324,12 +349,15 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeStringcd xargs_shapeStringfind . -type f -name "*.txt"find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
+cd xargs_shapeString
+find . -type f -name "*.txt"
+find . -type f -name "*.txt" | xargs</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>./example1.txt<br>./folder1/example2.txt<br>./folder1/example3.txt<br>./folder1/folder2/example4.txt<br>./folder1/folder3/example5.txt<br><br>./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>./example1.txt<br>./folder1/example2.txt<br>./folder1/example3.txt<br>./folder1/folder2/example4.txt<br>./folder1/folder3/example5.txt<br><br>./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre></p>
 </details>
 </details>
 
