@@ -1,0 +1,40 @@
+# python /Users/ojiro/Desktop/programming/running-terminal-commands-blog/xargs/xargs_shapeString/test/save-DOM-string.py
+
+
+import time
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from feature.use_selenium_feature import getDriver
+from datetime import datetime
+
+
+start_time=time.time()
+
+now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+repository="xargs_shappeString"
+
+driver = getDriver()
+
+# url = "https://ss523971.stars.ne.jp/todo/wp-admin/post.php?post=3323&action=edit"
+url = "https://ss523971.stars.ne.jp/todo/xargs-shape-string/"
+
+driver.get(url)
+title = driver.title
+print(title)
+
+input()
+# その瞬間のページ全体のHTML（JSで生成されたものも含む）を保存
+html = driver.page_source
+# ファイルに保存（UTF-8で日本語もバッチリ）
+with open("test/"+repository+now+".html", "w", encoding="utf-8") as f:
+    f.write(html)
+print("保存完了！ → "+repository+".html")
+
+driver.quit()
+
+end_time=time.time()
+print("かかった時間:"+str(end_time-start_time))
+
+
+
