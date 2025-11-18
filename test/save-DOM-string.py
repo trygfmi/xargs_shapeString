@@ -29,7 +29,7 @@ html = driver.page_source
 # ファイルに保存（UTF-8で日本語もバッチリ）
 with open("test/"+repository+now+".html", "w", encoding="utf-8") as f:
     f.write(html)
-print("保存完了！ → "+repository+".html")
+print("保存完了！ → test/"+repository+".html")
 
 driver.quit()
 
