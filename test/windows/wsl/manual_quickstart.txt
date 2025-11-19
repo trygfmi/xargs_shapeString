@@ -1,7 +1,0 @@
-./example1.txt
-./folder1/example3.txt
-./folder1/example2.txt
-./folder1/folder3/example5.txt
-./folder1/folder2/example4.txt
-
-./example1.txt ./folder1/example3.txt ./folder1/example2.txt ./folder1/folder3/example5.txt ./folder1/folder2/example4.txt
