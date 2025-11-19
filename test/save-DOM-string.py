@@ -12,12 +12,11 @@ from datetime import datetime
 start_time=time.time()
 
 now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-repository="xargs_shappeString"
-
-driver = getDriver()
-
+repository="test/html/xargs_shappeString"
 # url = "https://ss523971.stars.ne.jp/todo/wp-admin/post.php?post=3323&action=edit"
 url = "https://ss523971.stars.ne.jp/todo/xargs-shape-string/"
+
+driver = getDriver()
 
 driver.get(url)
 title = driver.title
@@ -27,9 +26,9 @@ input()
 # その瞬間のページ全体のHTML（JSで生成されたものも含む）を保存
 html = driver.page_source
 # ファイルに保存（UTF-8で日本語もバッチリ）
-with open("test/"+repository+now+".html", "w", encoding="utf-8") as f:
+with open(repository+now+".html", "w", encoding="utf-8") as f:
     f.write(html)
-print("保存完了！ → test/"+repository+".html")
+print("保存完了！ → "+repository+now+".html")
 
 driver.quit()
 

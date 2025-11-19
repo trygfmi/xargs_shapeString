@@ -3,15 +3,16 @@
 
 import time
 from lxml import html
+import subprocess
 
 
-start_time=time.time()
+start_time = time.time()
 
-# repository="xargs_shappeString2025-11-18 17:13:12"
-repository="xargs_shappeString2025-11-18 20:52:44"
-# repository="xargs_shappeString2025-11-18 20:53:34"
+repository = subprocess.run("ls -1t test/html | head -1", shell=True, capture_output=True, text=True).stdout.strip()
+print("repository:"+repository)
+
 # 1. 保存しておいたHTMLファイルを読み込む
-with open("test/"+repository+".html", "r", encoding="utf-8") as f:
+with open("test/html/"+repository, "r", encoding="utf-8") as f:
     page_text = f.read()
 
 # 2. lxmlでパースする
