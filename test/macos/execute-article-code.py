@@ -1,6 +1,7 @@
 # python /Users/ojiro/Desktop/programming/running-terminal-commands-blog/xargs/xargs_shapeString/test/macos/execute-article-code.py
 
 
+
 import time
 from lxml import html
 import subprocess
