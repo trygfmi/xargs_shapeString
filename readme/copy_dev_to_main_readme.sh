@@ -18,7 +18,7 @@ git checkout main
 echo "$dev_README" >> README.md
 push_main
 sleep 5
-git checkout main
+git checkout dev
 
 END_TIME="$(date +%s.%N)"
 ELAPSED_TIME="$(echo "$END_TIME - $START_TIME" | bc)"
