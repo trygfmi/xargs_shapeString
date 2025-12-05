@@ -35,4 +35,6 @@ while IFS= read -r command; do
     i=$(($i+1))
 done < "$read_procedure_file_path"
 
-
+#####################################################
+rm -rf "$repository""/""$test_os_path""$repository_name"
+#####################################################
