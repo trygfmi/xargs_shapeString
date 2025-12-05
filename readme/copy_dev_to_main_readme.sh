@@ -15,7 +15,7 @@ git checkout dev
 dev_README="$(cat README.md)"
 
 git checkout main
-echo "$dev_README" >> README.md
+echo "$dev_README" > README.md
 push_main
 
 git checkout dev
