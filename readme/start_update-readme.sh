@@ -14,7 +14,7 @@ source ~/.bash_profile
 START_TIME=$(date +%s.%N)
 
 commit_message="${1:-"auto update"}"
-branch="$2"
+branch="${2:-"dev"}"
 file_absolute_path="$(readlink -f "$0")"
 directory_path="$(dirname "$file_absolute_path")"
 echo "$directory_path"
