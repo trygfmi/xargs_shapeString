@@ -13,11 +13,11 @@ echo "$file_absolute_path"
 
 git checkout dev
 dev_README="$(cat README.md)"
-sleep 5
+
 git checkout main
 echo "$dev_README" >> README.md
 push_main
-sleep 5
+
 git checkout dev
 
 END_TIME="$(date +%s.%N)"
