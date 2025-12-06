@@ -12,7 +12,7 @@ from datetime import datetime
 
 start_time=time.time()
 
-now = datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 repository="test/html/"+repository_name+now
 
 driver = getDriver()
