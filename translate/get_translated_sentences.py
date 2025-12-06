@@ -20,7 +20,7 @@ driver.get(access_url)
 title = driver.title
 print(title)
 
-now = datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 translated_sentences = ""
 search_string = '//div[@class="lRu31"]'
 latest_article_sentences = subprocess.run(f"ls -1t {project_root_path}/translate/article_sentences_folder | sed -n '1p'", shell=True, capture_output=True, text=True).stdout.strip()

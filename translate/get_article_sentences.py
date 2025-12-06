@@ -14,7 +14,7 @@ import subprocess
 project_root_path = subprocess.run(f'echo "$(dirname "$(dirname "$(readlink -f "{__file__}")")")"', shell=True, capture_output=True, text=True).stdout.strip()
 start_time=time.time()
 
-now = datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 driver = getDriver()
 driver.get(access_url)
 title = driver.title
