@@ -13,7 +13,7 @@ from datetime import datetime
 start_time=time.time()
 
 now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-repository="test/html/"+repository_name+now
+html_file_name="test/html/"+repository_name+now+".html"
 
 driver = getDriver()
 
@@ -25,9 +25,9 @@ print(title)
 # その瞬間のページ全体のHTML（JSで生成されたものも含む）を保存
 html = driver.page_source
 # ファイルに保存（UTF-8で日本語もバッチリ）
-with open(repository+".html", "w", encoding="utf-8") as f:
+with open(html_file_name, "w", encoding="utf-8") as f:
     f.write(html)
-print("保存完了！ → "+repository+now+".html")
+print("保存完了！ → "+html_file_name)
 
 driver.quit()
 
