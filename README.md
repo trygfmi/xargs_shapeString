@@ -432,5 +432,5 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<p>複数行を空白区切りで一つの行に出力するのが特徴です</p>
+<p>複数行を空白区切りで一つの行に出力するのが特徴です.</p>
 </div>
