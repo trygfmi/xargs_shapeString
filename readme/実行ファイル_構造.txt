@@ -1,3 +1,0 @@
-start_update-readme.sh
-    get-code-editor-value.py
-    update_readme.sh

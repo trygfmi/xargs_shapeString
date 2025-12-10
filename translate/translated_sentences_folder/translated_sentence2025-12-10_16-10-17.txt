@@ -1,0 +1,16 @@
+This repository executes the xargs command and receives the string output by other commands via a pipe (|) to format it.
+If you have already installed the above command, run the following command to download it from the repository, then change the directory and run the xargs command to confirm that the output has changed.
+Enter the following command into the terminal and if command not found does not appear, it is OK.
+If the command not found appears in the terminal, please install it using the following command.
+Executing the following command should output a string similar to the following:
+Enter the following command into the terminal and if command not found does not appear, it is OK.
+*MacOS uses the MacPorts package manager to manage commands. If you haven't installed it yet, please see the MacPorts installation instructions at the link below.
+It also allows you to set aliases for commands so that you can call them without conflicting with existing environments.
+If you are using this blog for the first time, please refer to the following two articles to set up your environment.
+If the command not found appears in the terminal, install it using the following command and set an alias.
+Executing the following command should output a string similar to the following:
+Enter the following command into the prompt and if command not found does not appear, it's OK.
+*Windows has been confirmed to work with WSL2 and MSYS2 MINGW64. Please install WSL2 if possible, and if you are unable to set it up, you can run it by installing MSYS2, but there may be some commands that can only be run in WSL2. Please refer to the following article for instructions on how to install WSL2 and MSYS2.
+If the command not found appears in the prompt, please install it using the following command.
+Executing the following command should output a string similar to the following:
+It is characterized by outputting multiple lines on one line separated by spaces.
